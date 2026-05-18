@@ -315,15 +315,6 @@ Wave-Shoes-Sales-Analytics/
 * Window Functions
 * CTEs
 
----
-
-# Resume Highlights
-
-* Built a Gen AI-powered Sales Analytics Dashboard using SQL, Power BI, and Excel to analyze revenue, profitability, customer behavior, and online vs offline sales performance.
-
-* Developed advanced SQL analytics using CTEs, Window Functions, KPI tracking, and interactive dashboards to identify growth opportunities and support business decision-making.
-
-* Automated reporting and insight generation using SQL, DAX, Power Query, and Generative AI tools, improving reporting efficiency and executive-level visibility.
 
 ---
 
