@@ -1,4 +1,4 @@
-# 👟 Wave Shoes Sales Analytics Dashboard
+
 
 <div align="center">
 
