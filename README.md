@@ -1,268 +1,247 @@
-# Gen AI-Powered Sales Analytics Dashboard 
-[!Live Preview of Aove Dashboard](https://lookerstudio.google.com/u/0/reporting/cae6cdd2-2eb1-46f2-90c0-0f15c8e230a6/page/eHMWD)
+# 🚀 Gen AI-Powered Sales Analytics Dashboard
 
-## Overview
-
-This project is an end-to-end Sales Analytics solution built to help business stakeholders analyze revenue, profitability, customer behavior, product performance, and online vs offline sales trends.
-
-The project combines SQL analytics, Power BI dashboards, Excel reporting, and Generative AI tools to transform raw sales data into actionable business insights.
-
-The dashboard is designed from a business-thinking perspective and focuses on strategic decision-making through KPI tracking, trend analysis, profitability monitoring, and growth opportunity identification.
+🔗 Live Dashboard Preview:  
+https://lookerstudio.google.com/u/0/reporting/cae6cdd2-2eb1-46f2-90c0-0f15c8e230a6/page/eHMWD
 
 ---
 
-# Business Problem
+# 📌 Overview
 
-Retail businesses generate massive transactional data daily, but raw data alone does not help stakeholders make strategic decisions.
+This project is an end-to-end Sales Analytics Solution designed to help business stakeholders analyze revenue, profitability, customer behavior, product performance, and sales trends across online and offline channels.
 
-Wave Shoes needed a centralized analytics solution to:
+Built using SQL, Power BI, Excel, Python, and Generative AI, this solution transforms raw transactional data into strategic business insights and executive-level dashboards.
 
-* Track revenue and profitability
-* Monitor product and category performance
-* Analyze customer purchasing behavior
-* Compare online vs offline sales
-* Identify growth opportunities
-* Improve executive reporting visibility
-* Enable data-driven decision-making
+The project focuses on:
 
-This project solves these challenges by building an interactive analytics ecosystem using SQL, Power BI, Excel, and Gen AI.
-
----
-
-# Project Objectives
-
-* Analyze sales and profitability trends
-* Identify top-performing products and categories
-* Understand customer and city-wise purchasing behavior
-* Compare online and offline sales channels
-* Track KPI performance using dashboards
-* Build executive-level visual analytics
-* Automate reporting and business insights
+✅ Revenue & Profitability Tracking  
+✅ KPI Monitoring  
+✅ Customer & Product Analytics  
+✅ Business Storytelling  
+✅ Executive Decision-Making  
+✅ AI-Powered Analytics Workflow
 
 ---
 
-# Tech Stack
+# 🎯 Business Problem
 
-* SQL
-* Power BI
-* Microsoft Excel
-* DAX
-* Power Query
-* Python
-* ChatGPT
-* Claude AI
+Retail businesses generate massive transactional data daily, but raw data alone cannot drive strategic decisions.
+
+Wave Shoes required a centralized analytics ecosystem to:
+
+- 📈 Track revenue and profitability
+- 🛍️ Monitor product performance
+- 👥 Analyze customer purchasing behavior
+- 🌐 Compare online vs offline sales
+- 📊 Improve executive reporting visibility
+- 🚀 Enable data-driven decision-making
+
+This project solves these challenges using modern Business Intelligence and AI-powered analytics.
 
 ---
 
-# Dataset Information
+# 🛠️ Tech Stack
 
-### Table Name
+- 💾 SQL
+- 📊 Power BI
+- 📑 Microsoft Excel
+- 🐍 Python
+- ⚡ DAX
+- 🔄 Power Query
+- 🤖 ChatGPT
+- 🧠 Claude AI
+
+---
+
+# 📂 Dataset Information
+
+## 🗃️ Table Name
 
 `Fact_Sales`
 
-### Columns Used
+## 📌 Columns Used
 
-* order_number
-* order_date
-* customer_name
-* city
-* state
-* order_type
-* product
-* category
-* quantity
-* cost_per_unit
-* selling_price_per_unit
-* sales_amount
-* cost
-* profit
-* profit_margin_%
-
----
-
-# Key Business KPIs
-
-The project tracks multiple business KPIs including:
-
-* Total Revenue
-* Total Profit
-* Profit Margin %
-* Total Orders
-* Total Customers
-* Total Quantity Sold
-* Average Order Value
-* Revenue Per Customer
-* Monthly Sales Growth
-* Online vs Offline Revenue
-* Top Performing Product
-* Top Performing Category
-* Top Performing City
-* Revenue Contribution %
+- order_number
+- order_date
+- customer_name
+- city
+- state
+- order_type
+- product
+- category
+- quantity
+- cost_per_unit
+- selling_price_per_unit
+- sales_amount
+- cost
+- profit
+- profit_margin_%
 
 ---
 
-# Advanced SQL Concepts Used
+# 📊 Key Business KPIs
 
-This project uses advanced SQL techniques commonly used by Data Analysts and Business Intelligence professionals.
+This project tracks multiple strategic KPIs including:
 
-### SQL Features Implemented
-
-* Common Table Expressions (CTEs)
-* Window Functions
-* Running Totals
-* Ranking Functions
-* LAG Function
-* Dense Rank
-* Revenue Contribution Analysis
-* Profitability Analysis
-* Growth Analysis
-* Trend Analysis
-* Customer Segmentation
-* KPI Calculations
+- 💰 Total Revenue
+- 📈 Total Profit
+- 📉 Profit Margin %
+- 🧾 Total Orders
+- 👤 Total Customers
+- 📦 Total Quantity Sold
+- 💵 Average Order Value
+- 📍 Revenue Per Customer
+- 📆 Monthly Sales Growth
+- 🌐 Online vs Offline Revenue
+- 🏆 Top Performing Products & Categories
 
 ---
 
-# SQL Analytics Performed
+# 🧠 Advanced SQL Concepts Used
 
-## Revenue & Profitability Analysis
+## ✅ SQL Features Implemented
 
-* Total Revenue Analysis
-* Profit Margin Tracking
-* Profitability by Product
-* Profitability by Category
-* Revenue Contribution Analysis
-
-## Product Performance Analysis
-
-* Top-Selling Products
-* High Revenue Low Profit Products
-* Product Ranking Analysis
-* Product Contribution %
-
-## Customer Analytics
-
-* Top Customers by Revenue
-* Repeat Customer Analysis
-* Customer Segmentation
-* Revenue Per Customer
-
-## City & State Analysis
-
-* Top Revenue Cities
-* City-wise Profitability
-* State-wise Sales Analysis
-* Regional Trend Analysis
-
-## Channel Analysis
-
-* Online vs Offline Revenue
-* Online vs Offline Profitability
-* Channel Contribution Analysis
-
-## Time-Series Analysis
-
-* Monthly Revenue Trend
-* Monthly Profit Trend
-* Month-over-Month Growth
-* Running Revenue Totals
-* Daily Sales Trends
+- Common Table Expressions (CTEs)
+- Window Functions
+- Running Totals
+- Ranking Functions
+- LAG Functions
+- Dense Rank
+- Revenue Contribution Analysis
+- Growth & Trend Analysis
+- Customer Segmentation
+- KPI Calculations
 
 ---
 
-# Dashboard Features
+# 📈 Analytics Performed
 
-## Power BI Dashboard
+## 💰 Revenue & Profitability Analysis
 
-The Power BI dashboard was designed to provide executive-level business visibility.
+- Revenue Tracking
+- Profit Margin Analysis
+- Category Profitability
+- Product Profitability
+- Contribution Analysis
 
-### Dashboard Includes
+## 🛍️ Product Performance Analysis
 
-* KPI Cards
-* Interactive Slicers
-* Dynamic Filtering
-* Trend Analysis
-* Drill-Down Insights
-* Profitability Tracking
-* Product Performance Visualization
-* Customer Analytics
-* Regional Analysis
-* Growth Opportunity Identification
+- Top-Selling Products
+- Product Ranking
+- High Revenue Low Profit Products
+- Product Contribution %
 
----
+## 👥 Customer Analytics
 
-# Excel Dashboard Features
+- Top Customers
+- Repeat Customer Analysis
+- Customer Segmentation
+- Revenue Per Customer
 
-The Excel dashboard provides interactive reporting and business monitoring.
+## 🌍 Regional Analysis
 
-### Excel Features Used
+- Top Revenue Cities
+- State-wise Sales
+- City Profitability
+- Regional Growth Trends
 
-* Pivot Tables
-* Pivot Charts
-* KPI Cards
-* Conditional Formatting
-* Slicers
-* Timeline Filters
-* Dynamic Charts
-* Heatmaps
-* Business Insights
+## 🌐 Channel Analysis
 
----
+- Online vs Offline Revenue
+- Channel Contribution Analysis
+- Profitability Comparison
 
-# Data Cleaning Process
+## 📅 Time-Series Analysis
 
-The dataset was cleaned and transformed before analysis.
-
-### Cleaning Steps
-
-* Removed duplicate records
-* Handled missing values
-* Standardized column names
-* Fixed formatting inconsistencies
-* Converted date columns
-* Created Month, Quarter, and Year fields
-* Validated numerical columns
-* Improved data quality for reporting
+- Monthly Revenue Trends
+- Monthly Profit Trends
+- Running Totals
+- MoM Growth Analysis
+- Daily Sales Trends
 
 ---
 
-# Key Business Insights
+# 📊 Dashboard Features
 
-* Identified top-performing products contributing the highest revenue
-* Discovered low-profit high-revenue products requiring pricing optimization
-* Analyzed online vs offline sales contribution
-* Tracked monthly revenue growth trends
-* Identified top-performing cities and customer segments
-* Improved visibility into profitability and sales performance
+## 📌 Power BI Dashboard
 
----
+The dashboard was designed with an executive-level business perspective.
 
-# Business Impact
+### Features Include:
 
-* Improved executive-level reporting visibility
-* Enabled data-driven decision-making
-* Automated analytics workflows
-* Reduced manual reporting effort
-* Simplified KPI tracking
-* Helped identify growth opportunities and profitability drivers
+- KPI Cards
+- Interactive Slicers
+- Dynamic Filtering
+- Drillthrough Insights
+- Trend Visualizations
+- Regional Analysis
+- Product Analytics
+- Customer Insights
+- Business Storytelling
 
 ---
 
-# Gen AI Integration
+# 📑 Excel Dashboard Features
 
-Generative AI tools were used to accelerate analytics development and improve productivity.
-
-### Gen AI Use Cases
-
-* SQL Query Generation
-* Dashboard Planning
-* KPI Documentation
-* Business Insight Generation
-* Analytics Workflow Optimization
-* Reporting Automation
+- Pivot Tables
+- Pivot Charts
+- KPI Monitoring
+- Heatmaps
+- Conditional Formatting
+- Timeline Filters
+- Interactive Reporting
 
 ---
 
-# Repository Structure
+# 🧹 Data Cleaning Process
+
+## Cleaning & Transformation Steps
+
+- Removed duplicate records
+- Handled missing values
+- Standardized column names
+- Fixed formatting inconsistencies
+- Converted date columns
+- Created Month/Quarter/Year fields
+- Validated numerical columns
+
+---
+
+# 💡 Key Business Insights
+
+✨ Identified top-performing products driving maximum revenue  
+✨ Discovered low-profit high-revenue products needing optimization  
+✨ Analyzed online vs offline contribution trends  
+✨ Identified top-performing cities & customer segments  
+✨ Improved visibility into profitability drivers
+
+---
+
+# 🚀 Business Impact
+
+- 📊 Improved executive reporting visibility
+- ⚡ Enabled faster decision-making
+- 🔄 Automated reporting workflows
+- 🧠 Improved strategic insights generation
+- 📈 Identified growth opportunities
+
+---
+
+# 🤖 Gen AI Integration
+
+Generative AI tools were used to accelerate analytics development and business insight generation.
+
+## AI Use Cases
+
+- SQL Query Generation
+- KPI Documentation
+- Dashboard Planning
+- Business Insight Generation
+- Workflow Optimization
+- Reporting Automation
+
+---
+
+# 📁 Repository Structure
 
 ```bash
 Wave-Shoes-Sales-Analytics/
@@ -290,52 +269,72 @@ Wave-Shoes-Sales-Analytics/
 
 ---
 
-# Tools & Skills Demonstrated
+# 🧰 Skills Demonstrated
 
-## Data Analytics Skills
+## 📊 Data Analytics Skills
 
-* Business Analysis
-* KPI Development
-* Trend Analysis
-* Profitability Analysis
-* Customer Analytics
-* Revenue Analysis
-* Dashboard Design
-* Data Storytelling
+- Business Analysis
+- KPI Development
+- Dashboard Design
+- Trend Analysis
+- Customer Analytics
+- Revenue Analysis
+- Data Storytelling
 
-## Technical Skills
+## 💻 Technical Skills
 
-* SQL
-* Power BI
-* Excel
-* DAX
-* Power Query
-* Python
-* Data Cleaning
-* Data Visualization
-* Window Functions
-* CTEs
-
+- SQL
+- Power BI
+- Excel
+- DAX
+- Power Query
+- Python
+- Data Visualization
+- Data Cleaning
 
 ---
 
-# Future Improvements
+# 🔮 Future Improvements
 
-* Real-time dashboard integration
-* Predictive sales forecasting
-* Inventory optimization analysis
-* Customer churn prediction
-* AI-powered business recommendations
-* Cloud-based analytics deployment
+- Real-Time Dashboard Integration
+- Predictive Sales Forecasting
+- Customer Churn Prediction
+- AI-Powered Recommendations
+- Inventory Optimization
+- Cloud Deployment
 
 ---
 
-# Conclusion
+# 🏁 Conclusion
 
-This project demonstrates how SQL, Power BI, Excel, and Generative AI can be combined to build an enterprise-level Sales Analytics solution.
+This project demonstrates how modern analytics tools and Generative AI can be combined to build an enterprise-level Sales Analytics ecosystem.
 
-The project focuses not only on technical implementation but also on business thinking, strategic insights, and executive-level reporting.
+It showcases:
 
-It showcases real-world Data Analyst skills including business understanding, KPI development, dashboard design, SQL analytics, and data-driven storytelling.
+✅ Business Thinking  
+✅ Strategic Analytics  
+✅ Executive Reporting  
+✅ Dashboard Design  
+✅ SQL Expertise  
+✅ Data Storytelling  
+✅ AI-Accelerated Analytics
 
-[!Live Preview of Aove Dashboard](https://lookerstudio.google.com/u/0/reporting/cae6cdd2-2eb1-46f2-90c0-0f15c8e230a6/page/eHMWD)
+---
+
+# 👨‍💻 Author Details
+
+## 👤 Author
+Deepak Malviya
+
+📧 Email: Deepakmalviya7604@gmail.com  
+📱 Phone: +91 7989230916
+
+---
+
+# ⭐ Support
+
+If you found this project valuable:
+
+🌟 Star this repository  
+📢 Share your feedback  
+🤝 Connect for freelance Data Analytics projects
