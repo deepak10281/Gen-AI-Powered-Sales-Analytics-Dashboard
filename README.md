@@ -1,4 +1,5 @@
 # Gen AI-Powered Sales Analytics Dashboard 
+[!Live Preview of Aove Dashboard](https://lookerstudio.google.com/u/0/reporting/cae6cdd2-2eb1-46f2-90c0-0f15c8e230a6/page/eHMWD)
 
 ## Overview
 
@@ -336,3 +337,5 @@ This project demonstrates how SQL, Power BI, Excel, and Generative AI can be com
 The project focuses not only on technical implementation but also on business thinking, strategic insights, and executive-level reporting.
 
 It showcases real-world Data Analyst skills including business understanding, KPI development, dashboard design, SQL analytics, and data-driven storytelling.
+
+[!Live Preview of Aove Dashboard](https://lookerstudio.google.com/u/0/reporting/cae6cdd2-2eb1-46f2-90c0-0f15c8e230a6/page/eHMWD)
